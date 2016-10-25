@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmsSync" parent="@style/Theme.AppCompat">
+        <item name="actionBarItemBackground">@drawable/selectable_background_smssync</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.SmsSync</item>
+
+        <item name="android:listChoiceIndicatorSingle">@color/status_done</item>
+        <item name="android:textColor">@color/text_light</item>
+        <!-- setup text color of checkbox text field-->
+        <item name="android:checkboxStyle">@style/CheckBox.Text</item>
+    </style>
+    <style name="NavDrawerList">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">#111</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:listSelector">@color/selectable_background</item>
+    </style>
+
+    <style name="ActionBar.Solid.SmsSync" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_smssync</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_smssync</item>
+        <item name="backgroundSplit">@drawable/ab_stacked_solid_smssync</item>
+    </style>
+
+    <style name="ActionBar.Transparent.SmsSync" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_smssync</item>
+    </style>
+</resources>
